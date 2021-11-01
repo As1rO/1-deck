@@ -1,0 +1,39 @@
+.button {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-image: url("../images/menuB.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+}
+
+.button--footer {
+  width: 16px;
+  height: 16px;
+}
+
+.social-list {
+  li {
+    background-repeat: no-repeat;
+  }
+  li:first-child {
+    background-image: url("../images/insta.svg");
+  }
+  li:nth-child(2) {
+    background-image: url("../images/pinterest.svg");
+  }
+  li:nth-child(3) {
+    background-image: url("../images/twitter.svg");
+  }
+  li:nth-child(4) {
+    background-image: url("../images/facebook.svg");
+  }
+}
